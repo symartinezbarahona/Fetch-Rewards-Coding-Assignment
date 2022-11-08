@@ -1,8 +1,5 @@
-/* Create database*/ 
-USE fetchRewards;
---CREATE DATEBASE fetch_rewards
 
---CREATE DATABASE fetchRewards
+USE fetchRewards;
 
 /*Contents of user.json file is read by bulkcolumn and stored in variable.*/
 DECLARE @JSON VARCHAR(max)
@@ -15,19 +12,6 @@ This function will return 1 if it’s a valid JSON format. */
 --Select @JSON
 --If (ISJSON(@JSON)=1)
 --Print 'Valid JSON'
-
-/* Create table only if it does not exist 
-IF OBJECT_ID(N'dbo.user', N'U') IS NULL
--CREATE TABLE fetchRewards.dbo.[user] (
-[id] INT IDENTITY (1,1) PRIMARY KEY, 
-[userId] VARCHAR(50) NOT NULL, 
-[state] VARCHAR(5), 
-createdDate DATETIME, 
-lastLogin DATETIME, 
-[role] VARCHAR(50), 
-signUpSource VARCHAR(10),
-active VARCHAR(10));
-*/
 
 /* Removed duplicates and placed results in CTE for future reference */ 
 with jsonUsers as
