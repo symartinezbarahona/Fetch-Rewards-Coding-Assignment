@@ -1,6 +1,6 @@
-# Fetch Rewards Coding Exercise - Data Analyst
+# Fetch Rewards Coding Project
 ## Overview
-In this exercise, I will demonstrate my ability to reason about data as well as showcase how I communicate findings and insights with stakeholders and business executives.
+In this project, I will demonstrate my ability to reason about data as well as showcase how I communicate findings and insights with stakeholders and business executives.
 
 ----
 ## Requirements
